@@ -11,6 +11,7 @@ void main() async {
   await Segment.config(
     options: SegmentConfig(
       writeKey: 'YOUR_WRITE_KEY_GOES_HERE',
+      apiHost: 'YOUR_API_HOST_GOES_HERE',
       trackApplicationLifecycleEvents: false,
     ),
   );
